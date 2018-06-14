@@ -39,7 +39,15 @@ echo $1
   - 提取子字符串	
 
 #### 数组
-- 声明一个数组
+- 声明一个数组 name[index]=value
+- 例如
+```shell
+name[0]=hjzheng
+name[1]=fyang
+name[2]=lymeng
+```
+- 数组访问 ${name[index]}
+- 访问所有数组项 ${name[*]} 或 ${name[@]}
 
 #### 条件 
 - 写法
